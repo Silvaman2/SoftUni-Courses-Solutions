@@ -11,7 +11,7 @@ function time15Minutes(input) {
         hours -= 24;
     }
 
-    if(minutes / 10 < 1) {
+    if(minutes < 10) {
         console.log(`${hours}:0${minutes}`);
     } else {
         console.log(`${hours}:${minutes}`);

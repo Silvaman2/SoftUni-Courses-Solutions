@@ -15,3 +15,5 @@ function numDivisibleBy9(input) {
         }
     }
 }
+
+numDivisibleBy9(['1', '45']);
